@@ -1,4 +1,4 @@
-name: Flutter Windwos CI
+name: Flutter Windows CI
 
 on:
   workflow_dispatch:
