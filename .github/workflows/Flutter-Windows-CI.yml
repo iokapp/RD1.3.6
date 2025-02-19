@@ -8,6 +8,6 @@ on:
 
 jobs:
   run-ci:
-    uses: ./.github/workflows/flutter-win.yml
+    uses: ./.github/workflows/flutter-windows.yml
     with:
       upload-artifact: true
