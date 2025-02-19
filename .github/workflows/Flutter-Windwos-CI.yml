@@ -1,0 +1,13 @@
+name: Flutter Windwos CI
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  run-ci:
+    uses: ./.github/workflows/flutter-win.yml
+    with:
+      upload-artifact: true
